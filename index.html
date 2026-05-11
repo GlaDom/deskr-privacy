@@ -1,321 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Deskr — Privacy Policy</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deskr — Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  :root {
-    --yellow: #FFE44D;
-    --yellow-soft: #FFF8D6;
-    --fg1: #18180F;
-    --fg2: #6B6B5F;
-    --fg3: #ADADA0;
-    --bg: #FAFAF7;
-    --surface: #FFFFFF;
-    --border: rgba(0,0,0,0.08);
-  }
+    :root {
+      --yellow: #FFE44D;
+      --yellow-soft: #FFF8D6;
+      --fg1: #18180F;
+      --fg2: #6B6B5F;
+      --fg3: #ADADA0;
+      --bg: #FAFAF7;
+      --surface: #FFFFFF;
+      --border: rgba(0, 0, 0, 0.08);
+    }
 
-  body {
-    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
-    background: var(--bg);
-    color: var(--fg1);
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.7;
-  }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg1);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.7;
+    }
 
-  /* ── Header ─────────────────────────────────── */
-  header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    backdrop-filter: blur(12px);
-    background: rgba(255,255,255,0.92);
-  }
+    /* ── Header ─────────────────────────────────── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.92);
+    }
 
-  .header-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    color: var(--fg1);
-  }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--fg1);
+    }
 
-  .logo-mark {
-    width: 32px;
-    height: 32px;
-    background: var(--yellow);
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      background: var(--yellow);
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-  .logo-text {
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-  }
+    .logo-text {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
 
-  .header-badge {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--fg2);
-    background: var(--yellow-soft);
-    padding: 4px 10px;
-    border-radius: 999px;
-  }
+    .header-badge {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--fg2);
+      background: var(--yellow-soft);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
 
-  /* ── Hero ────────────────────────────────────── */
-  .hero {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 64px 24px 40px;
-  }
+    /* ── Hero ────────────────────────────────────── */
+    .hero {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 40px;
+    }
 
-  .hero h1 {
-    font-size: clamp(28px, 5vw, 38px);
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1.15;
-    margin-bottom: 12px;
-  }
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 38px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
 
-  .hero h1 span {
-    background: linear-gradient(120deg, var(--yellow) 0%, #FFD83D 100%);
-    padding: 0 8px;
-    border-radius: 4px;
-  }
+    .hero h1 span {
+      background: linear-gradient(120deg, var(--yellow) 0%, #FFD83D 100%);
+      padding: 0 8px;
+      border-radius: 4px;
+    }
 
-  .hero .meta {
-    font-size: 14px;
-    color: var(--fg3);
-    font-weight: 500;
-  }
+    .hero .meta {
+      font-size: 14px;
+      color: var(--fg3);
+      font-weight: 500;
+    }
 
-  /* ── Content ─────────────────────────────────── */
-  .content {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 24px 80px;
-  }
+    /* ── Content ─────────────────────────────────── */
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
 
-  .tldr {
-    background: var(--yellow-soft);
-    border: 1px solid rgba(255,228,77,0.3);
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin-bottom: 40px;
-  }
+    .tldr {
+      background: var(--yellow-soft);
+      border: 1px solid rgba(255, 228, 77, 0.3);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+    }
 
-  .tldr-label {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #9E8A00;
-    margin-bottom: 6px;
-  }
+    .tldr-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9E8A00;
+      margin-bottom: 6px;
+    }
 
-  .tldr p {
-    font-size: 15px;
-    color: var(--fg1);
-    font-weight: 500;
-    line-height: 1.6;
-  }
+    .tldr p {
+      font-size: 15px;
+      color: var(--fg1);
+      font-weight: 500;
+      line-height: 1.6;
+    }
 
-  section {
-    margin-bottom: 36px;
-  }
+    section {
+      margin-bottom: 36px;
+    }
 
-  section h2 {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-bottom: 10px;
-    color: var(--fg1);
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--yellow);
-    display: inline-block;
-  }
+    section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+      color: var(--fg1);
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--yellow);
+      display: inline-block;
+    }
 
-  section p {
-    font-size: 15px;
-    color: var(--fg2);
-    margin-bottom: 12px;
-  }
+    section p {
+      font-size: 15px;
+      color: var(--fg2);
+      margin-bottom: 12px;
+    }
 
-  section ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 12px;
-  }
+    section ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 12px;
+    }
 
-  section ul li {
-    font-size: 15px;
-    color: var(--fg2);
-    padding: 4px 0 4px 20px;
-    position: relative;
-  }
+    section ul li {
+      font-size: 15px;
+      color: var(--fg2);
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
 
-  section ul li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 12px;
-    width: 8px;
-    height: 8px;
-    background: var(--yellow);
-    border-radius: 2px;
-  }
+    section ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 8px;
+      height: 8px;
+      background: var(--yellow);
+      border-radius: 2px;
+    }
 
-  /* ── Footer ──────────────────────────────────── */
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 24px;
-    text-align: center;
-  }
+    /* ── Footer ──────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+    }
 
-  footer p {
-    font-size: 13px;
-    color: var(--fg3);
-  }
+    footer p {
+      font-size: 13px;
+      color: var(--fg3);
+    }
 
-  footer a {
-    color: var(--fg2);
-    text-decoration: none;
-    font-weight: 600;
-  }
+    footer a {
+      color: var(--fg2);
+      text-decoration: none;
+      font-weight: 600;
+    }
 
-  footer a:hover {
-    color: var(--fg1);
-  }
+    footer a:hover {
+      color: var(--fg1);
+    }
 
-  /* ── Responsive ──────────────────────────────── */
-  @media (max-width: 480px) {
-    .hero { padding: 40px 20px 28px; }
-    .content { padding: 0 20px 60px; }
-    .tldr { padding: 16px 18px; }
-  }
-</style>
+    /* ── Responsive ──────────────────────────────── */
+    @media (max-width: 480px) {
+      .hero {
+        padding: 40px 20px 28px;
+      }
+
+      .content {
+        padding: 0 20px 60px;
+      }
+
+      .tldr {
+        padding: 16px 18px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <div class="header-inner">
-    <a href="#" class="logo">
-      <div class="logo-mark">
-        <svg width="17" height="17" viewBox="0 0 38 38" fill="none">
-          <rect x="7" y="13" width="24" height="16" rx="2" stroke="#1A1A16" stroke-width="2.5" fill="none"/>
-          <path d="M7 18h24" stroke="#1A1A16" stroke-width="2.5"/>
-          <path d="M13 13V10a6 6 0 0112 0v3" stroke="#1A1A16" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-          <circle cx="19" cy="23" r="2" fill="#1A1A16"/>
-        </svg>
-      </div>
-      <span class="logo-text">deskr</span>
-    </a>
-    <span class="header-badge">Privacy Policy</span>
-  </div>
-</header>
+  <header>
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <div class="logo-mark">
+          <svg width="17" height="17" viewBox="0 0 38 38" fill="none">
+            <rect x="7" y="13" width="24" height="16" rx="2" stroke="#1A1A16" stroke-width="2.5" fill="none" />
+            <path d="M7 18h24" stroke="#1A1A16" stroke-width="2.5" />
+            <path d="M13 13V10a6 6 0 0112 0v3" stroke="#1A1A16" stroke-width="2.5" fill="none" stroke-linecap="round" />
+            <circle cx="19" cy="23" r="2" fill="#1A1A16" />
+          </svg>
+        </div>
+        <span class="logo-text">deskr</span>
+      </a>
+      <span class="header-badge">Privacy Policy</span>
+    </div>
+  </header>
 
-<div class="hero">
-  <h1>Your data stays <span>on your device</span></h1>
-  <p class="meta">Last updated — May 10, 2026</p>
-</div>
-
-<div class="content">
-
-  <div class="tldr">
-    <div class="tldr-label">TL;DR</div>
-    <p>Deskr stores everything locally on your phone. We don't collect, transmit, or sell any personal data. There are no accounts, no analytics, and no tracking. Your work-hour data never leaves your device.</p>
+  <div class="hero">
+    <h1>Your data stays <span>on your device</span></h1>
+    <p class="meta">Last updated — May 10, 2026</p>
   </div>
 
-  <section>
-    <h2>What Deskr Does</h2>
-    <p>Deskr is a home-office hour tracker that helps you monitor how many hours you work from home versus the office and whether you're within your monthly budget. All data is stored in a local database on your device.</p>
-  </section>
+  <div class="content">
 
-  <section>
-    <h2>Data We Collect</h2>
-    <p>None. Deskr does not collect, store, or process any data on external servers. Specifically:</p>
-    <ul>
-      <li>No personal information is transmitted off your device</li>
-      <li>No analytics or crash reporting SDKs are included</li>
-      <li>No advertising frameworks or tracking pixels are used</li>
-      <li>No cookies or browser fingerprinting is employed</li>
-      <li>No user accounts or authentication systems exist</li>
-    </ul>
-  </section>
+    <div class="tldr">
+      <div class="tldr-label">TL;DR</div>
+      <p>Deskr stores everything locally on your phone. We don't collect, transmit, or sell any personal data. There are
+        no accounts, no analytics, and no tracking. Your work-hour data never leaves your device.</p>
+    </div>
 
-  <section>
-    <h2>Data Stored on Your Device</h2>
-    <p>The following data is stored locally on your phone and never shared:</p>
-    <ul>
-      <li>Your name (as entered during onboarding)</li>
-      <li>Your weekly contracted hours and home-office percentage</li>
-      <li>Daily work entries (date, type, hours)</li>
-    </ul>
-    <p>This data is stored in a local SQLite database. If you uninstall the app, all data is permanently deleted.</p>
-  </section>
+    <section>
+      <h2>What Deskr Does</h2>
+      <p>Deskr is a home-office hour tracker that helps you monitor how many hours you work from home versus the office
+        and whether you're within your monthly budget. All data is stored in a local database on your device.</p>
+    </section>
 
-  <section>
-    <h2>Data Sharing</h2>
-    <p>Deskr does not share any data with third parties. There are no partnerships, integrations, or data-sharing agreements of any kind. The optional CSV export feature saves a file to your device — the destination of that file is entirely under your control.</p>
-  </section>
+    <section>
+      <h2>Data We Collect</h2>
+      <p>None. Deskr does not collect, store, or process any data on external servers. Specifically:</p>
+      <ul>
+        <li>No personal information is transmitted off your device</li>
+        <li>No analytics or crash reporting SDKs are included</li>
+        <li>No advertising frameworks or tracking pixels are used</li>
+        <li>No cookies or browser fingerprinting is employed</li>
+        <li>No user accounts or authentication systems exist</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Third-Party Services</h2>
-    <p>Deskr does not integrate with any third-party services, APIs, or SDKs. The app functions entirely offline after installation.</p>
-  </section>
+    <section>
+      <h2>Data Stored on Your Device</h2>
+      <p>The following data is stored locally on your phone and never shared:</p>
+      <ul>
+        <li>Your name (as entered during onboarding)</li>
+        <li>Your weekly contracted hours and home-office percentage</li>
+        <li>Daily work entries (date, type, hours)</li>
+      </ul>
+      <p>This data is stored in a local SQLite database. If you uninstall the app, all data is permanently deleted.</p>
+    </section>
 
-  <section>
-    <h2>Children's Privacy</h2>
-    <p>Deskr is not directed at children under 13 and does not knowingly collect information from children. Since no data is collected from any user, this is inherently satisfied.</p>
-  </section>
+    <section>
+      <h2>Data Sharing</h2>
+      <p>Deskr does not share any data with third parties. There are no partnerships, integrations, or data-sharing
+        agreements of any kind. The optional CSV export feature saves a file to your device — the destination of that
+        file is entirely under your control.</p>
+    </section>
 
-  <section>
-    <h2>Your Rights</h2>
-    <p>Since all data is stored locally on your device, you have complete control over it at all times. You can:</p>
-    <ul>
-      <li>View all your data directly in the app</li>
-      <li>Export your data as a CSV file from Settings</li>
-      <li>Delete all data from within the app's Settings screen</li>
-      <li>Uninstall the app to permanently remove all data</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>Deskr does not integrate with any third-party services, APIs, or SDKs. The app functions entirely offline after
+        installation.</p>
+    </section>
 
-  <section>
-    <h2>Changes to This Policy</h2>
-    <p>If Deskr ever introduces features that affect data handling (such as cloud sync or backups), this policy will be updated before those features are released. The "last updated" date at the top will always reflect the most recent revision.</p>
-  </section>
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>Deskr is not directed at children under 13 and does not knowingly collect information from children. Since no
+        data is collected from any user, this is inherently satisfied.</p>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, reach out at:</p>
-    <p style="color: var(--fg1); font-weight: 600;">your.email@example.com</p>
-  </section>
+    <section>
+      <h2>Your Rights</h2>
+      <p>Since all data is stored locally on your device, you have complete control over it at all times. You can:</p>
+      <ul>
+        <li>View all your data directly in the app</li>
+        <li>Export your data as a CSV file from Settings</li>
+        <li>Delete all data from within the app's Settings screen</li>
+        <li>Uninstall the app to permanently remove all data</li>
+      </ul>
+    </section>
 
-</div>
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>If Deskr ever introduces features that affect data handling (such as cloud sync or backups), this policy will
+        be updated before those features are released. The "last updated" date at the top will always reflect the most
+        recent revision.</p>
+    </section>
 
-<footer>
-  <p>© 2026 deskr · Built with care in Ulm, Germany</p>
-</footer>
+    <section>
+      <h2>Contact</h2>
+      <p>If you have questions about this privacy policy, reach out at:</p>
+      <p style="color: var(--fg1); font-weight: 600;">dominik8.glaser@web.de</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 deskr · Built with care in Ulm, Germany</p>
+  </footer>
 
 </body>
+
 </html>
